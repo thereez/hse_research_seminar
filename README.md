@@ -22,3 +22,32 @@ Quantized weights will be loaded if available, otherwise model will be quantized
 ```bash
 python cli_demo.py --model-path `path/to/original/weights`
 ```
+
+## Evaluation
+
+### Usage
+```bash
+python eval_arc.py --model-path '/path/to/original/weights' \
+                   --input-path '/path/to/parquet' \
+                   --output-path '/path/to/output'
+
+python accuracy.py --gt-path '/path/to/parquet' \
+                   --pred-path '/path/to/output'
+```
+
+### ARC-Easy
+[Download test](https://huggingface.co/datasets/ai2_arc/resolve/refs%2Fconvert%2Fparquet/ARC-Easy/test/0000.parquet?download=true)
+### ARC-Challenge
+[Download test](https://huggingface.co/datasets/ai2_arc/resolve/refs%2Fconvert%2Fparquet/ARC-Challenge/test/0000.parquet?download=true)
+
+## Metrics
+| model/accuracy | ARC-Easy | ARC-Challenge |
+|----------------|----------|---------------|
+| original       | **0.7946**   | **0.4735**        |
+| quantized      | 0.5320   | 0.3993        |
+
+## Performace
+
+| model | RAM | Tokens/s |
+|----------------|----------|---------------|
+| quantized | ~6Gb | ~4.8 |
