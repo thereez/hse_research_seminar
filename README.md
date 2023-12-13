@@ -46,8 +46,8 @@ python accuracy.py --gt-path '/path/to/parquet' \
 | original       | **0.7946**   | **0.4735**        |
 | quantized      | 0.5320   | 0.3993        |
 
-## Performace
-
+## Performance
+i7-12700k, 16Gb
 | model | RAM | Tokens/s |
 |----------------|----------|---------------|
 | quantized | ~6Gb | ~4.8 |
