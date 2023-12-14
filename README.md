@@ -6,7 +6,7 @@ This work is done by:
 
  - Artyom Pyanzin
  - Kristina Ovakimyan
- - Dmirty Vorob`ev
+ - Dmirty Vorobyev
  - Vadim Voevodkin
 
 Report can be found [here](report.pdf)
