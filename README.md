@@ -8,6 +8,8 @@ This work is done by:
  - Kristina Ovakimyan
  - Dmirty Vorob`ev
  - Vadim Voevodkin
+
+Report can be found [here](report.pdf)
 ## Installation
 ```bash
 git clone https://github.com/intel/intel-extension-for-transformers
