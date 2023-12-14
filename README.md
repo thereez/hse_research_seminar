@@ -1,5 +1,13 @@
 # Advanced LLM Model Optimization and Quantization for Local Inference
+## Description
+This work is a result of Research Work on seminars in HSE. The authors of this work are grateful to Professor Krylov Vladimir Vladimirovich for setting the problem and valuable recommendations.
 
+This work is done by:
+
+ - Artyom Pyanzin
+ - Kristina Ovakimyan
+ - Dmirty Vorob`ev
+ - Vadim Voevodkin
 ## Installation
 ```bash
 git clone https://github.com/intel/intel-extension-for-transformers
